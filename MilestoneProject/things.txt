@@ -1,0 +1,10 @@
+1-laptop-Asus-asus1000-299.99-2024,02,11
+2-laptop-Acer-acer1002-499.99-2024,03,12
+3-smartphone-Samsung-galaxyS21-799.99-2024,01,15
+4-tablet-Apple-ipadAir-599.99-2024,02,20
+5-smartwatch-Fitbit-versa3-199.99-2024,03,05
+6-earbuds-Bose-quietComfort-249.99-2024,01,10
+7-desktop-Dell-inspiron7000-1099.99-2024,02,05
+8-monitor-LG-ultraFine-349.99-2024,03,18
+9-printer-HP-envy5055-129.99-2024,01,22
+10-camera-Canon-eosR5-3899.99-2024,02,28

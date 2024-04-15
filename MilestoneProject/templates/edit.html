@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Edit Device</title>
+    <!-- css file-->
+    <link rel="stylesheet" href="../static/styles/site.css">
+</head>
+<body>
+    <h1>Edit a device in the inventory</h1>
+    <form action="/edit" method="post" class="data-form">
+
+        <input type="hidden" name="id" value="{{ thing.id if thing else '' }}">
+        <div class="form-group"> 
+        Name: <input type="text" name="name" value="{{ thing.name if thing else '' }}">
+        </div>
+        <div class="form-group">
+        Model: <input type="text" name="model" value="{{ thing.model if thing else '' }}">
+        </div>
+        <div class="form-group">
+        Serial Number: <input type="text" name="serial_number" value="{{ thing.serial_number if thing else '' }}">
+        </div>
+        <div class="form-group">
+        Price: <input type="text" name="price" value="{{ thing.price if thing else '' }}">
+        </div>
+        <div class="form-group">
+        Manufacture Date (YYYY, MM, DD): <input type="text" name="manufacture_date" value="{{ thing.manufacture_date if thing else '' }}">
+        </div>
+        <input type="submit" value="Submit">
+        
+    </form> 
+</body>
+</html>
